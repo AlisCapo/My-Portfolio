@@ -180,8 +180,8 @@ width: 15%;
 /*header*/
 .header-container {
    background-color: black;
-   padding-top: 128px;
-   padding-bottom: 128px;
+   padding-top: 100px;
+   padding-bottom: 100px;
    width:100%;
    display:flex;
    justify-content: center;
@@ -194,10 +194,10 @@ width: 15%;
    background-color: #DBD0BF;
    display: flex;
    align-items: center;
-   justify-content: center;
+   justify-content: space-between;
    padding-top: 64px;
    padding-bottom: 64px;
-   padding-left:100px;
+   padding-left:150px;
 }
 
 .foto img {
@@ -216,7 +216,7 @@ width: 15%;
   padding-bottom: 50px;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 .presentation-container p{
@@ -246,8 +246,8 @@ width: 15%;
   text-align: center;
   align-items: center;
   color: black;
-  margin-bottom: 20px;
-  padding-top: 50px;
+  margin-bottom: 0px;
+  padding-top: 70px;
 }
 
 .container {
@@ -296,7 +296,7 @@ padding: auto;
 }
 .social-container{
   background: white;
-  padding-top:32px;
+  padding-top:25px;
   display: flex;
   align-items: center;
   justify-content:center;
@@ -318,7 +318,7 @@ padding: auto;
 /*works*/
 .works-container {
   background: white;
-  padding-top:65px;
+  padding-top:80px;
   padding-bottom: 50px;
   width: 100%;
 }
@@ -326,7 +326,7 @@ padding: auto;
 .works-heading {
   text-align: center;
   color:#DBD0BF;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 
 .row {
@@ -390,7 +390,7 @@ padding: auto;
 /*contacts*/
 .contacts-container{
   background: white;
-  padding-top:92px;
+  padding-top:30px;
   padding-bottom: 25px;
   width: 100%;
   display: flex;
@@ -537,7 +537,8 @@ h1 h2 h3 h4 {
 
 .presentation-container p {
   justify-content: right;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   text-size-adjust:12;
  }
 
@@ -550,6 +551,8 @@ h1 h2 h3 h4 {
 /*foto*/
 .foto-container {
    display:none;
+   flex-direction: column;
+   align-items: flex-start;
    padding-top: 60px;
    padding-bottom: 60px;
    width:50%;
@@ -686,6 +689,8 @@ p {
 /*foto*/
 .foto-container {
    display:none;
+   flex-direction: column;
+   align-items: flex-start;
    padding-top: 60px;
    padding-bottom: 60px;
    width:50%;
@@ -700,6 +705,8 @@ p {
   padding-top: 60px;
   padding-bottom: 15px;
   min-width:320px;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .presentation-content p{
@@ -882,3 +889,4 @@ p {
   margin-left: 5%;
 }
 }
+
