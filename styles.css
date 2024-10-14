@@ -390,8 +390,8 @@ padding: auto;
 /*contacts*/
 .contacts-container{
   background: white;
-  padding-top:30px;
-  padding-bottom: 25px;
+  padding-top:25px;
+  padding-bottom: 60px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -447,8 +447,10 @@ padding: auto;
 .contact-me-text {
   background-color: #DBD0BF;
   background-image: radial-gradient(circle farthest-corner at 50% 180%, #DBD0BF, #DBD0BF 60%);
-  height: 800px;
-  padding-top: 50px;
+  height: 100%;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 200px;
 }
 
 .contact-me-text h1 {
@@ -889,4 +891,3 @@ p {
   margin-left: 5%;
 }
 }
-
